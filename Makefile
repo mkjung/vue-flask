@@ -1,5 +1,5 @@
 CWD=$(shell pwd)
-ENV=$(CWD)/env
+ENV=$(CWD)/venv
 
 default: dev $(ENV)
 
