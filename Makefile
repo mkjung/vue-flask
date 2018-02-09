@@ -4,7 +4,7 @@ ENV=$(CWD)/venv
 default: dev $(ENV)
 
 $(ENV):
-	virtualenv -p python3 $(ENV)
+	virtualenv $(ENV)
 	$(ENV)/bin/pip install -r requirements.txt
 
 
